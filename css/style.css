@@ -11,7 +11,7 @@
   flex: 1 0 200px;
   margin: 10px;
   overflow: hidden;
-  width: 150px;
+  width: 250px;
   height: 300px;
 }
   
@@ -32,17 +32,17 @@ img:hover {
 }
 
 .box:nth-child(4n+1) {
-  width: 250px;
+  flex-basis: 350px;
 }
 
 .box:nth-child(4n+2) {
-  width: 325px;
+  flex-basis: 180px;
 }
 
 .box:nth-child(4n+3) {
-  width: 180px;
+  flex-basis: 200px;;
 }
 
 .box:nth-child(4n+4) {
-  width: 380px;
+   flex-basis: 300px;
 }
